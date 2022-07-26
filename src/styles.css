@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+/*general resets*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/*layout and spacing properties*/
+.flex-container {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.eith-rems-between {
+    gap : 0.8rem;
+}

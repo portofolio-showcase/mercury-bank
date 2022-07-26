@@ -1,0 +1,9 @@
+.opacity-overlay {
+    position : absolute;
+    top : 0;
+    left: 0;
+    height: 100vh;
+    z-index : 1;
+    width: 100vw;
+    background-color: rgba(77,104,235,.5);
+}

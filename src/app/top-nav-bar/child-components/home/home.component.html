@@ -1,0 +1,15 @@
+<nav class="top-nav flex-container space-between">
+    <section class="logo-and-info-text flex-container">
+        <p>Welcome to Mercury Demo. <a href="#">Learn more about Mercury</a></p>
+    </section>
+    <section class="cta-buttons flex-container eith-rems-between">
+        <button (click)="showSettingsFormToggler()">Customize demo</button>
+        <button (click)="showSettingsFormToggler()">Open Account</button>
+    </section>
+
+</nav>
+
+
+<!-- only shows up when user clicks on customize demo button -->
+<app-opacity-overlay *ngIf="showSettingsForm" (closeForm)="showSettingsFormToggler()"></app-opacity-overlay>
+<app-demo-settings-form *ngIf="showSettingsForm" (closeForm)="showSettingsFormToggler()"></app-demo-settings-form>

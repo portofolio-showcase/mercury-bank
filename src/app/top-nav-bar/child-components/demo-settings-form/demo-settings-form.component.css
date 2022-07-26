@@ -1,0 +1,9 @@
+.form-container {
+    position: absolute;
+    background-color: #fff;
+    z-index : 2;
+    top : 20vh; left : 40vw;    
+    width: 20vw;
+    height : 60vh;
+    box-shadow: 0 22px 25px 0 rgb(53 71 180 / 20%), 0 9px 23px 0 rgb(53 71 180 / 16%);
+}
